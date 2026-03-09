@@ -21,10 +21,4 @@ O sistema foi desenhado com foco em resiliência (tratamento de *Rate Limits*, *
    * **Windows:** Baixe e instale a versão MSI oficial no [GitHub do espeak-ng](https://github.com/espeak-ng/espeak-ng/releases).
    * **Linux:** `sudo apt-get install espeak-ng`
    * **macOS:** `brew install espeak`
-
-## 📦 Instalação
-
-1. Clone o repositório:
-```bash
-git clone [https://github.com/SEU_USUARIO/podcast-generator.git](https://github.com/SEU_USUARIO/podcast-generator.git)
-cd podcast-generator
+   
