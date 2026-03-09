@@ -1,0 +1,32 @@
+# Variáveis de ambiente
+python-dotenv==1.0.1
+
+# CORREÇÃO #5: newspaper3k substituído por newspaper4k.
+# newspaper3k está abandonado desde 2020. lxml_html_clean era um workaround
+# para bug de compatibilidade com lxml moderno. newspaper4k é o fork ativo
+# que resolve esses problemas nativamente.
+newspaper4k==0.9.3.1
+
+# CORREÇÃO N1: feedparser adicionado para o modo Elite.
+# Leitura direta de RSS feeds garante curadoria real das fontes,
+# sem depender do operador site: que o DDGS ignora via API.
+feedparser==6.0.11
+
+# LLM via Groq
+groq==0.37.1
+
+# Síntese de voz
+kokoro==0.9.4
+soundfile==0.12.1
+
+# Envio via Telegram
+python-telegram-bot==21.2
+
+# Retentativas em chamadas de rede
+tenacity==8.2.3
+
+# Painel de controle
+streamlit==1.42.0
+
+# Motor de busca (modo aberto)
+duckduckgo-search==7.3.0
